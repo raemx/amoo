@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AMOO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-expand-md sticky-top">
+<!-- md is breakpoint where it'll switch from mobile to website, light is the white background and dark text, sticky navbar  -->
+    <div class="container-fluid"> 
+        <!-- takes full screen -->
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"> 
+            <!-- collapse allows it to close -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <!-- ml-auto: pushs menu to right hand side when screen is smaller -->
+                <li class="nav-item active">
+                    <!-- active shows which tab is currently on -->
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog/Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resources.html">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Success Stories</a>
+                </li>
+        </div>
+    </div>
+</nav> 
+
+
+<!--- Image Slider 1. ABOUT US 2. UPCOMING EVENTS  3. BLOG/NEWSLETTER-->
+
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+<div class="carousel-inner"> 
+    <div class="carousel-item active">
+        <img src="img/london.jpg">
+        <div class="carousel-caption">
+            <h1 class="titleimg display-4"><img src="img/AMOO-logo-light.png"></h1>
+            <h3>NURTURING OUR BETTER SELVES IN BUSINESS</h3>
+            <button type="button" class="btn btn-primary btn-lg">Contact us</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="img/event.jpg">
+        <div class="carousel-caption">
+            <div class="card big">
+                <h2 class="display-2">Upcoming Events</h2>
+                <div class="card-body">
+                    <div class="container-fluid padding">
+                        <div class="row two padding">
+                            <div class="col-12">
+                                <div class="card" style="width: 38rem; position: center;">
+                                    <img class="card-img-top" src="img/webinar.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">BHM Special: Reverse Pitching Event</h5>
+                                      <p class="card-text">15.10.2021</p>
+                                      <a href="https://t.co/S0RXGagInQ" class="btn btn-primary">Sign up</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="row two padding">
+                            <div class="col-lg-6" style="margin: auto;">
+                                <button type="button" class="btn btn-primary btn-lg">See more events</button>
+                            </div>
+                            </div>
+                    </div>
+
+                </div>
+              </div>
+
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="img/people.jpg">
+        <div class="carousel-caption">
+            <div class="card big">
+                <h2 class="display-2">Latest Blog</h2>
+                <div class="card-body">
+                    <div class="container-fluid padding">
+                        <div class="row two padding">
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="card" style="width: 18rem; ">
+                                    <img class="card-img-top" src="img/blog1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Innovation, Sustainability and Inclusion</h5>
+                                      <p class="card-text">by Amoo | Mar 31, 2021 | General | 0 comments</p>
+                                      <a href="https://www.amoo.co.uk/blog/general/innovation-sustainability-and-inclusion/" class="btn btn-primary">Read more</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/blog1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Innovation, Sustainability and Inclusion</h5>
+                                      <p class="card-text">by Amoo | Mar 31, 2021 | General | 0 comments</p>
+                                      <a href="https://www.amoo.co.uk/blog/general/innovation-sustainability-and-inclusion/" class="btn btn-primary">Read more</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="img/blog1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Innovation, Sustainability and Inclusion</h5>
+                                      <p class="card-text">by Amoo | Mar 31, 2021 | General | 0 comments</p>
+                                      <a href="https://www.amoo.co.uk/blog/general/innovation-sustainability-and-inclusion/" class="btn btn-primary">Read more</a>
+                                    </div>
+                                  </div>
+                            </div>
+                    </div>
+                    <div class="row two padding">
+                            <div class="col-lg-6" style="margin: auto;">
+                                <button type="button" class="btn btn-primary btn-lg">More blogs</button>
+                            </div>
+                    </div>
+                    </div>
+
+                </div>
+              </div>
+
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+</div>
+</div>
+
+
+<!-- About us / Carosuel -->
+
+<div class="carousel-inner"> 
+    <div class="carousel-item active">
+        <img src="img/agree.jpg" style="opacity: 0.5;">
+        <div class="carousel-caption">
+            <h1 class="display-2 first">A new, inclusive FinTech in London, UK</h1>
+            <h3 class="display-2 second">Supporting entrepreneurs to overcome their funding challenges</h3>
+            <button type="button" class="btn btn-primary btn-lg">More resources on funding here</button>
+
+        </div>
+</div>
+
+
+<hr class="my-4">
+<!-- 
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed"></div>
+    </div>
+</figure> -->
+
+<!-- Our Goal  / Jumbotron -->
+
+<div class="container-fluid padding">
+    <div class="row welcome jumbotron text-center">
+        <div  class="col-12">
+            <h1 class="display-2">Our Goal</h1>
+        </div>
+        <hr>
+        <div  class="col-12">
+            <h2 class="display-4">Create Impact</h2>
+        </div>
+        <div class="col-12">
+            <p class="lead">We aim to support business women and female tech entrepreneurs with their financing needs. This may be in the form of equity, convertibles, project finance, loans, etc. The problem is that today’s stewards of capital do not fairly allocate funds to female owned companies.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Resources Link / 2 column-->
+
+<div class="container-fluid padding double">
+    <div class="row two padding">
+        <div class="col-lg-6 text-center">
+            <div class="row two padding">
+                <h2>This is X. See how we helped her</h2>
+                <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></button>
+            </div>
+        </div>
+        <div class="col-lg-6 pic style=" padding: 0em; ">
+            <img src="img/client.jpg" class="img-fluid">
+        </div>
+        
+    </div>
+</div>
+
+<!-- Social Media -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="www.twitter.com/amootweets"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/AmooVentureCapital/"><i class="fab fa-facebook"></i></a>
+            <a href="mailto:info@amoo.co.uk"><i class="far fa-envelope"></i></a>
+            <a href="www.linked.com/in/amoo-venture-capital-advisory"><i  class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</div>
+
+<hr class="my-4">
+<!-- Footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <Div class="col-12">
+                <hr class="light">
+                <p>info@amoo.co.uk</p>
+                <p>Suite 100</p>
+                <p>155 The Minories</p>
+                <p>London</p>
+                <p>EC3N 1AD</p>
+            </Div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>Copyright © 2019 AMOO. All Rights Reserved.</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<!-- <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/webinar.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">BHM Special: Reverse Pitching Event</h5>
+          <p class="card-text">15.10.2021</p>
+          <a href="https://t.co/S0RXGagInQ" class="btn btn-primary">Sign up</a>
+        </div>
+      </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/webinar.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">BHM Special: Reverse Pitching Event</h5>
+          <p class="card-text">15.10.2021</p>
+          <a href="https://t.co/S0RXGagInQ" class="btn btn-primary">Sign up</a>
+        </div>
+      </div>
+</div> -->
