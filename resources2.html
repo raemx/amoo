@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AMOO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <link href="resource2.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-expand-md sticky-top">
+        <!-- md is breakpoint where it'll switch from mobile to website, light is the white background and dark text, sticky navbar  -->
+        <div class="container-fluid">
+            <!-- takes full screen -->
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbarResponsive">
+                <!-- collapse allows it to close -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <!-- ml-auto: pushs menu to right hand side when screen is smaller -->
+                    <li class="nav-item active">
+                        <!-- active shows which tab is currently on -->
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Blog/Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Success Stories</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/resources.jpg" style="opacity: 0.5;">
+            <div class="carousel-caption">
+                <div class="card main"
+                    style="padding: 1rem; width: 28rem; height: 20rem; left: 0; color: #f2aaa7;  border-radius: 20%;">
+                    <div class="card-body" style="text-align: left; color: #641454;">
+                        <h1 class="card-title">Discover our resources</h1>
+                        <p class="card-text">Equip yourself with a sea of resources.</p>
+                        <p class="card-text">Below is a hand-picked list of companies and affiliates that we value.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+
+
+                    <nav class="navbar navbar-custom navbar-expand-md sticky-top second">
+                        <!-- md is breakpoint where it'll switch from mobile to website, light is the white background and dark text, sticky navbar  -->
+                            <div class="container-fluid"> 
+                                <!-- takes full screen -->
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbarResponsive"> 
+                                    <!-- collapse allows it to close -->
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarResponsive">
+                                    <ul class="navbar-nav ml-auto" style="text-align:center;">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle title" style="text-align: center;" href="#top" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <p class="title">Founders</p>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                              <a class="dropdown-item" href="#cappro">Capital Providers</a>
+                                              <a class="dropdown-item" href="#top">Another action</a>
+                                              <a class="dropdown-item" href="#top">Something else here</a>
+                                            </div>
+                                          </li>
+                                          </ul>
+                                    </div>
+                            </div>
+                        </nav> 
+                    <!-- <a class="navbar-brand" href="index.html"><p class="large">Founders</p></a> -->
+
+                        <nav class="navbar navbar-custom navbar-expand-md sticky-top second">
+                            <!-- md is breakpoint where it'll switch from mobile to website, light is the white background and dark text, sticky navbar  -->
+                                <div class="container-fluid"> 
+                                    <!-- takes full screen -->
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbarResponsive"> 
+                                        <!-- collapse allows it to close -->
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                                        <ul class="navbar-nav ml-auto" style="text-align:center;">
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle title" style="text-align: right;" href="#bottom" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <p class="title">Investors</p>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                  <a class="dropdown-item" href="#bottom">Overview</a>
+                                                  <a class="dropdown-item" href="#top">Onboarding Process</a>
+                                                  <a class="dropdown-item" href="#top">Focus Groups</a>
+                                                  <a class="dropdown-item" href="#top">Communities</a>
+                                                </div>
+                                              </li>
+                                              </ul>
+                                        </div>
+                                </div>
+                            </nav> 
+                        <!-- <a class="navbar-brand" href="index.html"><p class="large">Founders</p></a> -->
+
+        <hr class="my-4">
+
+        <section class="purple">
+            <div class="custom-shape-divider-top-1658364333">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <p class="title" style="position: absolute; left: 0; padding-top: 1em; padding-bottom: 2em;;">Types of Capital Providers</p>
+            <div class="container" style="margin-top: 15em;" id="top">
+                <div class="row">
+                        <div class="card second" style="width: 18rem; height:20rem; ">
+                            <img class="card-img-top " src="img/vc.png" alt="Card image cap" style="width: 50%; height: auto; margin: 0 auto;">
+                            <div class="card-body">
+                                <h5 class="card-title">Venture Capital</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            </div>
+                        <div class="card second" style="width: 18rem; height:20rem;">
+                            <img class="card-img-top " src="img/gov.png" alt="Card image cap" style="width: 50%; height: auto; margin: 0 auto;">
+                            <div class="card-body">
+                                <h5 class="card-title">Government/Charity</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            </div>
+                        <div class="card second" style="width: 18rem; height:20rem;">
+                            <img class="card-img-top " src="img/priv.png" alt="Card image cap" style="width: 50%; height: auto; margin: 0 auto;">
+                            <div class="card-body">
+                                <h5 class="card-title">Private Companies</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            </div>
+                    </div>
+                <div class="row">
+                    <div class="card second" style="width: 18rem; height:20rem;">
+                        <img class="card-img-top " src="img/vc.png" alt="Card image cap" style="width: 50%; height: auto; margin: 0 auto;">
+                        <div class="card-body" >
+                            <h5 class="card-title">Venture Capital</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+                    <div class="card second" style="width: 18rem; height:20rem;">
+                        <img class="card-img-top " src="img/gov.png" alt="Card image cap" style="width: 50%; height: auto; margin: 0 auto;">
+                        <div class="card-body">
+                            <h5 class="card-title">Government/Charity</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- <hr class="my-4"> -->
+        <section class="purple">
+            <p class="title" style="position: absolute; left: 0; padding-bottom: 1em;">Available Capital Providers</p>
+            <div class="row" style="padding-top:8em;">
+                <div id="myBtnContainer" style="margin: 0 auto; " >
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('female')"> Female</button>
+                    <button class="btn" onclick="filterSelection('uk')"> UK</button>
+                    <button class="btn" onclick="filterSelection('PoC')"> PoC</button>
+                    <button class="btn" onclick="filterSelection('Tech')"> Tech</button>
+                  </div>
+            </div>
+            <ul class="cards" style="width: 1024px;">
+                <div class="row" style="width: 1024px;">
+                <li>
+                  <a href="" class="card filterDiv female" style="margin: 1em;">
+                    <img src="img/comp1.jpg" class="card__image" alt="" />
+                    <div class="card__overlay">
+                      <div class="card__header">
+                        <div class="card__header-text">
+                          <h3 class="card__title">Angel Academe</h3>            
+                          <span class="card__status">
+                            <ul>
+                            <li>Location: UK</li>
+                            <li>Type: Vecture Capital</li>
+                            <li>Female Founders: Yes</li>
+                            <li>Sector: Technology</li>
+                        </ul></span>
+                        </div>
+                      </div>
+                      <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                    </div>
+                  </a>      
+                </li>  
+                <li>
+                    <a href="" class="card filterDiv" style="margin: 1em;">
+                      <img src="img/comp2.png" class="card__image" alt="" />
+                      <div class="card__overlay">
+                        <div class="card__header">
+                          <div class="card__header-text">
+                            <h3 class="card__title">Female Founders Fund</h3>            
+                            <span class="card__status">
+                              <ul>
+                              <li>Location: UK</li>
+                              <li>Type: Vecture Capital</li>
+                              <li>Female Founders: Yes</li>
+                              <li>Sector: Fintech, Healthcare</li>
+                          </ul></span>
+                          </div>
+                        </div>
+                        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                      </div>
+                    </a>      
+                  </li>  
+                  <li>
+                    <a href="" class="card filterDiv female" style="margin: 1em;">
+                      <img src="img/comp3.png" class="card__image" alt="" />
+                      <div class="card__overlay">
+                        <div class="card__header">
+                          <div class="card__header-text">
+                            <h3 class="card__title">BBG Ventures</h3>            
+                            <span class="card__status">
+                              <ul>
+                              <li>Location: US</li>
+                              <li>Type: Vecture Capital</li>
+                              <li>Female Founders: Yes</li>
+                              <li>Sector: Health, Wellbeing</li>
+                          </ul></span>
+                          </div>
+                        </div>
+                        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                      </div>
+                    </a>      
+                  </li>  
+            
+                </div>  
+                
+              </ul>
+            <div class="custom-shape-divider-bottom-1658356513">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+
+        <div class="spacer layer2 flip"></div> 
+        <section>
+          <p class="title" style="position: absolute; color:#641454">Grants</p>
+            <table class="wp-table" style="padding-top: 10em; margin-top: 10em; ">
+              <tr>
+                <th>Deadline</th>
+                <th>Name</th>
+                <th>Eligibility</th>
+                <th>Click for more</th>
+              </tr>
+              <tr>
+                <td>25th of August 2021</td>
+                <td>Innovate UK SMART grants May 2021</td>
+                <td>
+                  <li>a UK registered research or technology organisation</li>
+                   <li>Carry out the research and development activity within the UK</li>
+                   <li>Be or involve at least one micro or SME company and exploit the project results from the UK.</li>
+                </td>
+                <td><a href="https://www.ukri.org/opportunity/innovate-uk-smart-grants-may-2021/">Read more</a></td>
+              </tr>
+              <tr>
+                <td>No specified</td>
+                <td>Fiserv’s Back2Business Grant Programme</td>
+                <td>                  <li>Must be located in the UK</li>
+                  <li>Must have revenue of less than £1000000 annually</li>
+                  <li></li>Must have been in business prior to January 2020</li>
+                  <li></li>Have 15 or fewer employees</li>
+                  <li></li>Be a business that is majority owned by a person from a diverse ethnic background.</li>
+                  </td>
+                  <td><a href="https://fiserv.aeoworks.co.uk">Read more</a></td>
+              </tr>
+              <tr>
+                <td>30th September 2021</td>
+                <td>UnLtd Grant</td>
+                <td>
+                <li>Aged 16 or over</li>
+              <li> Be based in the UK</li>
+            <li> Participate in a learning experience, work to benefit people in the UK, have a real social impact, fulfil a clear need or demand, have clear outputs and goals.</li>
+
+                  <li>Grant applications are assessed on three criteria: Social impact, financial sustainability and inclusion.</li>
+                  
+                  </td>
+                  <td><a href="https://fiserv.aeoworks.co.uk">Read more</a></td>
+              </tr>
+            </table>
+            <!-- <div class="col-md-4 text-center"></div>
+            <div class="col-md-4 text-center">
+                <UL style="list-style-type:none;">
+                  <div>
+                    <li>Innovate UK SMART grants May 2021</li>
+
+                     <li>Fiserv’s Back2Business Grant Programme</li>
+                
+                     <li>UnLtd Grant</li>
+                
+                    <li>Simply Business Grant</li>
+                
+                    <li>DIT’s Internationalisation Fund</li>
+                
+                    <li>The Feminist Review Trust</li>
+                
+                    <li>Women in Innovation Awards 2021 to 2022</li>
+                </UL>
+            </div>
+            <div class="col-md-4 text-center">
+            </div> -->
+           
+
+        <div class="spacer layer2"></div>
+
+        <hr class="my-4">
+
+        <div class="container-fluid ">
+          <div class="row grant">
+              <div class="col-lg-6 text-center">
+                  <div class="row">
+                    <p style="color: #641454; font-size: 2rem;">Grant Application</p>
+                  </div>
+              </div>
+              <div class="col-lg-6"  style="padding: 0em; ">
+                  <ul>
+                    <li>Step 1</li>
+                    <li>Step 2</li>
+                    <li>Step 3</li>
+                    <li>Step 4</li>
+                  </ul>
+              </div>
+              
+          </div>
+      </div>
+      <svg id="visual" viewBox="0 0 960 300" width="960" height="300" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <g transform="translate(468.85302986277765 128.28492778561002)">
+          <path id="blob1"
+              d="M65.1 -40.4C88.5 -22.6 114.4 4.7 114.9 35.6C115.3 66.4 90.2 100.8 57.7 114.2C25.3 127.6 -14.5 120.1 -39.1 100.8C-63.8 81.4 -73.3 50.1 -82.1 17.1C-90.9 -15.9 -99 -50.6 -85.2 -66.3C-71.4 -81.9 -35.7 -78.5 -7.4 -72.6C20.8 -66.6 41.7 -58.3 65.1 -40.4"
+              fill="#ec0404"></path>
+      </g>
+      <g transform="translate(477.7972450995702 168.96278577162528)" style="visibility: hidden">
+          <path id="blob2" d="M105.9 -60.3C125.3 -27.7 120.7 19.7 99 44.7C77.4 69.7 38.7 72.3 0 72.3C-38.7 72.3 -77.4 69.7 -97.6 45.5C-117.8 21.3 -119.5 -24.3 -100.2 -57C-80.8 -89.7 -40.4 -109.3 1.4 -110.2C43.3 -111 86.6 -93 105.9 -60.3" fill="#ec0404"></path></g>
+  </svg>
+</section>
+      <hr class="my-4">
+
+
+
+
+<!-- INVESTORS -->
+
+
+    <section class="red">
+          <div class="custom-shape-divider-top-1658442082">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <p class="title" style="position: absolute; right: 2em; padding-top: 1em; padding-bottom: 2em;">Investors</p>
+        <section class="page-contain">
+          <a href="#" class="data-card">
+            <h3>Want to join?</h3>
+            <h4>Onboarding process </h4>
+            <p></p>
+            <span class="link-text">
+              See more
+              <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
+        </svg>
+            </span>
+          </a>
+          <a href="#" class="data-card">
+            <h3>Focus Groups</h3>
+            <h4>For Investors</h4>
+            <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+            <span class="link-text">
+              Get more information
+              <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
+        </svg>
+            </span>
+          </a>
+          <a href="#" class="data-card">
+            <h3>Communities</h3>
+            <h4>See available communities to join</h4>
+            <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+            <span class="link-text">
+              View More
+              <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
+        </svg>
+            </span>
+          </a>
+        </section>
+  </section>
+
+
+
+
+<section class="red">
+  <p class="title" style="position: absolute; left: 0; ">Communities</p>
+ <div class="com">
+      <div class="card fo">
+        <div class="card-header">
+          <img src="img/tech.jpg" alt="rover" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-teal">Technology</span>
+          <h4>
+            Recently: How can we boost --- ....?
+          </h4>
+          <p>
+            Join the discussion
+          </p>
+          <div class="user">
+            <img src="img/user.png" alt="user" />
+            <!-- <div class="user-info">
+              <h5>July Dec</h5>
+              <small>2h ago</small>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="card fo">
+        <div class="card-header">
+          <img src="img/invest.jpg" alt="ballons" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-purple">Fintech</span>
+          <h4>
+            Recently: Lets solve this issue
+          </h4>
+          <p>
+            Join the discussion
+          </p>
+          <div class="user">
+            <img src="img/user.png" alt="user" />
+            <!-- <div class="user-info">
+              <h5>Eyup Ucmaz</h5>
+              <small>Yesterday</small>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="card fo">
+        <div class="card-header">
+          <img src="img/diver.jpg" alt="city" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-pink">Diversity</span>
+          <h4>
+            Recently: How can we increase funding to underrepresented groups?
+          </h4>
+          <p>
+            Join the discussion
+          </p>
+          <div class="user">
+            <img src="img/user.png" alt="user" />
+            <!-- <div class="user-info">
+              <h5>Carrie Brewer</h5>
+              <small>1w ago</small>
+            </div> -->
+          </div>
+        </div>
+</div>
+        <div class="custom-shape-divider-bottom-1658600763">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+      </div>
+  </section>
+
+
+
+
+
+<p class="title" style="position: absolute; color:#641454; ">Focus Groups</p>
+<div class="foc">
+  <div class="row1-container">
+    <div class="box box-down c">
+      <h2>Focus Group 2</h2>
+      <p>Monitors activity to identify project roadblocks</p>
+      <img class="f" src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+    </div>
+
+    <div class="box c">
+      <h2>Focus Group 1
+      </h2>
+      <p>Scans our talent network to create the optimal team for your project</p>
+      <img  class="f"  src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+    </div>
+
+    <div class="box box-down c">
+      <h2>Focus Group 3</h2>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+      <img class="f"  src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+    </div>
+  </div>
+  <div class="row2-container">
+    <div class="box c">
+      <h2>Focus Group 4</h2>
+      <p>Regularly evaluates our talent to ensure quality</p>
+      <img  class="f"  src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+    </div>
+  </div>
+</div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <Div class="col-12">
+                        <hr class="light">
+                        <p>info@amoo.co.uk</p>
+                        <p>Suite 100</p>
+                        <p>155 The Minories</p>
+                        <p>London</p>
+                        <p>EC3N 1AD</p>
+                    </Div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>Copyright © 2019 AMOO. All Rights Reserved.</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>
+
+<script>
+    const tween = KUTE.fromTo(
+        '#blob1',
+        {path: '#blob1'},
+        {path : '#blob2'},
+        { repeat: 999, duration: 3000, yoyo: true}
+    )
+    tween.start()
+
+    filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
